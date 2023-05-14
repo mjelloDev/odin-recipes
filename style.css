@@ -1,23 +1,36 @@
-* {
-  box-sizing: border-box;
-  margin: 10px;
+body {
+  background: #eee;
+  font-family: Verdama, Tahoma, sans-serif;
+  /* box-sizing: border-box; */
 }
 
-.boxA,
-.boxB {
-  font-size: xx-large;
-  margin: 30px;
-  border: 30px;
-  padding: 30px;
-  background-color: white;
-  color: red;
+.card {
+  width: 400px;
+  height: auto;
+  background: #fff;
+  margin: 80px auto;
+  padding: 8px;
+  align-content: center;
+  border: 20px;
+}
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 25px;
+  text-align: center;
+  padding: 2px;
+  border: 1px;
+  background: #ff6961;
 }
 
-.boxB {
-  font-size: medium;
-  background-color: beige;
+.image-header {
+  display: block;
+  margin: 20px auto;
 }
 
-.image {
-  margin: 50px;
+.menu-list {
+  background: beige;
+  padding: 20px;
+  margin: 20px 25px;
 }
